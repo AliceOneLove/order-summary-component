@@ -28,7 +28,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/AliceOneLove/order-summary-component/)
 - Live Site URL: [Live site URL](https://aliceonelove.github.io/order-summary-component/)
 
 ## My process
