@@ -2,32 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="style.css" rel="stylesheet">
   <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
   <main>
-    <img style="border-top-left-radius: 20px; border-top-right-radius: 20px;" src="images/illustration-hero.svg" alt="Vibing girl picture">
-    <div>
-      <h2>Order Summary</h2>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-        device anywhere you like!</p>
-    </div>
+    <img class="main-top-img" src="images/illustration-hero.svg" alt="Vibing girl picture">
+    <h2 class="main__h2">Order Summary</h2>
+    <p class="main__p">
+      You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!
+    </p>
     
     <div class="subscription-block">
       <div class="subscription-block__left-items">
-        <img class="subscription-block__item" src="images/icon-music.svg" alt="Music icon">
+        <img class="subscription-block__item subscription-block__img" src="images/icon-music.svg" alt="Music icon">
         <div class="price-block">
-          <h3>Annual Plan</h3>
-          <p>$59.99/year</p>
+          <h3 class="price-block__h3">Annual Plan</h3>
+          <p class="price-block__p">$59.99/year</p>
         </div>
       </div>
-      <a href="#" class="subscription-block__item">Change</a>
+      <a href="#" class="subscription-block__item subscription-block__a">Change</a>
     </div>
 
-    <button type="button">Proceed to Payment</button>
+    <button type="button" class="btn-payment">Proceed to Payment</button>
     <a href="#" class="cancel">Cancel Order</a>
   </main>
 
